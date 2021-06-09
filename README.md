@@ -299,6 +299,8 @@ Open the following section and double click `package`.
 You can see now that a new folder, `target`, has shown up, you can find your compiled plugin there. The one with the
 prefix 'original' is the version without Kotlin libraries, so pick the version without such.
 
+![Target Folder](docs/images/target.png)
+
 ### Running the plugin
 
 After all that effort, add the plugin to your server's plugin folder and let's see it working.
