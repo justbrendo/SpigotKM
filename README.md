@@ -18,11 +18,11 @@ moment).
 
 First we want to create the project. Select Maven and click next.
 
-[Creating the project](docs/images/creating.png)
+![Creating the project](docs/images/creating.png)
 
 At this part you may want to set up the configurations about your project, such as the name.
 
-[Creating the project](docs/images/creating2.png)
+![Creating the project](docs/images/creating2.png)
 
 ### Dependencies
 
@@ -91,9 +91,9 @@ Now that we have Spigot, you may use it as an api, just as you would if you had 
 
 Now the fun part, let's add Kotlin to the project. Start by refactoring the java directory to Kotlin.
 
-[Refactoring](docs/images/refactoring.png)
+![Refactoring](docs/images/refactoring.png)
 
-[Refactored](docs/images/refactored.png)
+![Refactored](docs/images/refactored.png)
 
 The next step is adding Kotlin version as a 'variable', that way you can easily change the version in the future without
 having to change the whole pom.xml
@@ -139,7 +139,7 @@ Now that we have Spigot and Kotlin, you sure want to do some coding, so let's be
 
 First we create the main class (or any other class you may want):
 
-[MainClass](docs/images/mainclass.png)
+![MainClass](docs/images/mainclass.png)
 
 Will look like this:
 
@@ -186,7 +186,7 @@ You can take a look at some other methods and examples at the `/src` folder.
 
 Don't forget to add the plugin.yml file and its configs
 
-[Plugin YML File](docs/images/pluginyml.png)
+![Plugin YML File](docs/images/pluginyml.png)
 
 ```text
 name: MyPluginName
@@ -290,11 +290,11 @@ Yeah, it seems a lot at first, but don't panic, you don't need to understand eve
 
 Now let's compile it. Start by opening the maven section on the right side of your editor.
 
-[Maven](docs/images/maven.png)
+![Maven](docs/images/maven.png)
 
 Open the following section and double click `package`.
 
-[Maven Package](docs/images/mavenpackage.png)
+![Maven Package](docs/images/mavenpackage.png)
 
 You can see now that a new folder, `target`, has shown up, you can find your compiled plugin there. The one with the
 prefix 'original' is the version without Kotlin libraries, so pick the version without such.
@@ -303,8 +303,8 @@ prefix 'original' is the version without Kotlin libraries, so pick the version w
 
 After all that effort, add the plugin to your server's plugin folder and let's see it working.
 
-[Plugin Enable](docs/images/pluginenable.png)
+![Plugin Enable](docs/images/pluginenable.png)
 
-[Plugin Disable](docs/images/plugindisable.png)
+![Plugin Disable](docs/images/plugindisable.png)
 
 There we go, the plugin is up and running.
